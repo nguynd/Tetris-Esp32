@@ -1,6 +1,6 @@
-# 🎮 ESP32 Dual OLED Tetris Game
+# ESP32 Dual OLED Tetris Game
 
-## 📘 Mô tả
+## Mô tả
 
 Đây là một phiên bản Tetris được triển khai trên **ESP32**, sử dụng **hai màn hình OLED (I2C)** để hiển thị đồng thời:
 - Bảng trò chơi chính
@@ -14,7 +14,7 @@ Chức năng nổi bật:
 
 ---
 
-## 🧰 Phần cứng yêu cầu
+## Phần cứng yêu cầu
 
 | Thiết bị             | Ghi chú                                |
 |---------------------|----------------------------------------|
@@ -25,7 +25,7 @@ Chức năng nổi bật:
 
 ---
 
-## 🧱 Sơ đồ chân (GPIO)
+## Sơ đồ chân (GPIO)
 
 | Nút bấm  | GPIO |
 |----------|------|
@@ -41,7 +41,7 @@ OLED:
 
 ---
 
-## 🧰 Thư viện cần thiết
+## Thư viện cần thiết
 
 Cài đặt các thư viện sau trong Arduino IDE:
 
@@ -52,7 +52,7 @@ Cài đặt các thư viện sau trong Arduino IDE:
 
 ---
 
-## ⚙️ Cài đặt & nạp chương trình
+## Cài đặt & nạp chương trình
 
 ### 1. Cài đặt môi trường ESP32
 1. Mở Arduino IDE
@@ -76,7 +76,7 @@ https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32
 
 ---
 
-## 🕹️ Hướng dẫn chơi
+## Hướng dẫn chơi
 
 - **Trái (GPIO 32):** Di chuyển khối sang trái
 - **Phải (GPIO 33):** Di chuyển sang phải
@@ -90,20 +90,15 @@ Khi game over:
 
 ---
 
-## 🧪 Kiểm tra và debug
+## Kiểm tra và debug
 
 - Mở Serial Monitor (115200 baud) để xem log
 - Dùng `EEPROM.begin(EEPROM_SIZE)` để lưu dữ liệu điểm
 
 ---
 
-## 📷 Giao diện mẫu
 
-> (Bạn có thể thêm hình ảnh minh họa nếu muốn)
-
----
-
-## 📌 Ghi chú
+## Ghi chú
 
 - Game sử dụng bộ font và tọa độ thủ công để hiển thị
 - Chơi tốt nhất với 2 màn hình OLED 128x64
@@ -111,7 +106,7 @@ Khi game over:
 
 ---
 
-## 🛠️ Tác giả
+## Tác giả
 
 Nguyễn Trần Thái Dương - duong.ntt225822@sis.hust.edu.vn
 Lê Đình Quốc Huy - huy.ldq225857@sis.hust.edu.vn
